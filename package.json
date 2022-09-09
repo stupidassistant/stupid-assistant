@@ -1,0 +1,21 @@
+{
+  "name": "@stupidassistant/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "nohoist": [
+    "@stupidassistant/core"
+  ],
+  "scripts": {
+    "start": "lerna run --parallel start",
+    "deploy website:homepage": "lerna run deploy --parallel --scope @stupidassistant/homepage"
+  },
+  "devDependencies": {
+    "lerna": "^5.5.0",
+    "typescript": "^4.8.2"
+  }
+}
