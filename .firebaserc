@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "stupid-assistant-core"
+  },
+  "targets": {
+    "stupid-assistant-core": {
+      "hosting": {
+        "homepage": [
+          "stupid-assistant-homepage"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
