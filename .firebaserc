@@ -7,6 +7,9 @@
       "hosting": {
         "homepage": [
           "stupid-assistant-homepage"
+        ],
+        "account": [
+          "stupid-assistant-account"
         ]
       }
     }

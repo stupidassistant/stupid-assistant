@@ -12,7 +12,8 @@
   ],
   "scripts": {
     "start": "lerna run --parallel start",
-    "deploy website:homepage": "lerna run deploy --parallel --scope @stupidassistant/homepage"
+    "deploy website:homepage": "lerna run deploy --parallel --scope @stupidassistant/homepage",
+    "deploy website:account": "lerna run deploy --parallel --scope @stupidassistant/account"
   },
   "devDependencies": {
     "lerna": "^5.5.0",

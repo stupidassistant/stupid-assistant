@@ -27,6 +27,21 @@
           "destination": "/index.html"
         }
       ]
+    },
+    {
+      "public": "packages/web-account/build",
+      "target": "account",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
     }
   ]
 }
