@@ -1,17 +1,24 @@
 # Roadmap for Stupid Assistant
 
-- [ ] Homepage
-- [ ] Auth Page
-- [ ] SSO
+### Completed
+- [-] Homepage
+- [-] Accounts Page (Migrate to sso.stupidassistant.com)
+
+### Alpha Stage 1 Roadmap
+- [ ] Migrate accounts to sso.stupidassistant.com
+- [ ] SSO Accounts
+- [ ] Core API Endpoints - api.stupidassistant.com
 - [ ] Engine
-- [ ] CLI
+- [ ] CLI - Requires API
+
+### Alpha Stage 2 Roadmap
 - [ ] Console
 - [ ] Documentation
 
-### Desireable
+### Beta Roadmap
 - [ ] Teams
 - [ ] Subscriptions
-- [ ] API
+- [ ] Client API Endpoints
 - [ ] Offline
 - [ ] NPM Modules
 - [ ] Marketplace

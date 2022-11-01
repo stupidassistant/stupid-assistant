@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "name": "@stupidassistant/cli",
+  "author": "LordHaywood",
+  "version": "1.0.0",
+  "license": "MIT",
+  "bin": {
+    "stupid-assistant": "./lib/index.js"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json",
+    "prebuild": "rimraf build",
+    "build": "tsc",
+    "auto-build": "tsc -w",
+    "prestart": "rimraf build",
+    "start": "tsc -w",
+    "pack": "yarn pack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "commander": "^9.4.1",
+    "configstore": "^6.0.0",
+    "fs-extra": "^10.1.0",
+    "minimatch": "^5.1.0",
+    "node-fetch": "^3.2.10",
+    "tmp": "^0.2.1"
+  },
+  "devDependencies": {
+    "@types/archiver": "^5.3.1",
+    "@types/commander": "^2.12.2",
+    "@types/configstore": "^6.0.0",
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^18.11.2",
+    "@types/tmp": "^0.2.3"
+  }
+}
